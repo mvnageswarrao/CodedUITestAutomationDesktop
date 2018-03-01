@@ -1,0 +1,871 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="3efe829a-76df-439e-af0d-8d5c62727a1e" AssemblyVersion="10.0.21008.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="9.0.8112.16421" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" Value="no" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" Value="no" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="1" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="66816" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="73728" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 7 Enterprise " WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 6.1.7601 Service Pack 1" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="False" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="False" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1033" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="True" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1280" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="1024" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="5" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers">
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="UIA" WarningLevel="1" />
+    </Group>
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <StringAssertAction UIObjectName="verifyHrefInCountryName_Map.UIHttpnimbusdestinatioWindow.UIHttpnimbusdestinatioDocument.UIDvDestinationPane.UIAlgarveHyperlink">
+      <ParameterName />
+      <PropertyName>Href</PropertyName>
+      <ExpectedValue>destination.aspx?dest=AL</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <StringAssertAction UIObjectName="verifyHrefInCountryName_Map.UIHttpnimbusdestinatioWindow.UIHttpnimbusdestinatioDocument.UIDvDestinationPane1.UICostaBlancaHyperlink">
+      <ParameterName />
+      <PropertyName>Href</PropertyName>
+      <ExpectedValue>destination.aspx?dest=BL</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <StringAssertAction UIObjectName="verifyHrefInCountryName_Map.UIHttpnimbusdestinatioWindow.UIHttpnimbusdestinatioDocument.UIDvDestinationPane2.UICorfuHyperlink">
+      <ParameterName />
+      <PropertyName>Href</PropertyName>
+      <ExpectedValue>destination.aspx?dest=CO</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <StringAssertAction UIObjectName="verifyHrefInCountryName_Map.UIHttpnimbusdestinatioWindow.UIHttpnimbusdestinatioDocument.UIDvDestinationPane3.UICreteHyperlink">
+      <ParameterName />
+      <PropertyName>Href</PropertyName>
+      <ExpectedValue>destination.aspx?dest=CR</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <StringAssertAction UIObjectName="verifyHrefInCountryName_Map.UIHttpnimbusdestinatioWindow.UIHttpnimbusdestinatioDocument.UIDvDestinationPane4.UICyprusHyperlink">
+      <ParameterName />
+      <PropertyName>Href</PropertyName>
+      <ExpectedValue>destination.aspx?dest=CY</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <StringAssertAction UIObjectName="verifyHrefInCountryName_Map.UIHttpnimbusdestinatioWindow.UIHttpnimbusdestinatioDocument.UIDvDestinationPane5.UIFuerteventuraHyperlink">
+      <ParameterName />
+      <PropertyName>Href</PropertyName>
+      <ExpectedValue>destination.aspx?dest=FU</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <StringAssertAction UIObjectName="verifyHrefInCountryName_Map.UIHttpnimbusdestinatioWindow.UIHttpnimbusdestinatioDocument.UIDvDestinationPane6.UIKefaloniaHyperlink">
+      <ParameterName />
+      <PropertyName>Href</PropertyName>
+      <ExpectedValue>destination.aspx?dest=KE</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <StringAssertAction UIObjectName="verifyHrefInCountryName_Map.UIHttpnimbusdestinatioWindow.UIHttpnimbusdestinatioDocument.UIDvDestinationPane7.UILanzaroteHyperlink">
+      <ParameterName />
+      <PropertyName>Href</PropertyName>
+      <ExpectedValue>destination.aspx?dest=LA</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <StringAssertAction UIObjectName="verifyHrefInCountryName_Map.UIHttpnimbusdestinatioWindow.UIHttpnimbusdestinatioDocument.UIDvDestinationPane8.UIMallorcaHyperlink">
+      <ParameterName />
+      <PropertyName>Href</PropertyName>
+      <ExpectedValue>destination.aspx?dest=MA</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <StringAssertAction UIObjectName="verifyHrefInCountryName_Map.UIHttpnimbusdestinatioWindow.UIHttpnimbusdestinatioDocument.UIDvDestinationPane9.UIMenorcaHyperlink">
+      <ParameterName />
+      <PropertyName>Href</PropertyName>
+      <ExpectedValue>destination.aspx?dest=ME</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <StringAssertAction UIObjectName="verifyHrefInCountryName_Map.UIHttpnimbusdestinatioWindow.UIHttpnimbusdestinatioDocument.UIDvDestinationPane10.UIRhodesHyperlink">
+      <ParameterName />
+      <PropertyName>Href</PropertyName>
+      <ExpectedValue>destination.aspx?dest=RH</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <StringAssertAction UIObjectName="verifyHrefInCountryName_Map.UIHttpnimbusdestinatioWindow.UIHttpnimbusdestinatioDocument.UIDvDestinationPane11.UICostadelSolHyperlink">
+      <ParameterName />
+      <PropertyName>Href</PropertyName>
+      <ExpectedValue>destination.aspx?dest=SP</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <StringAssertAction UIObjectName="verifyHrefInCountryName_Map.UIHttpnimbusdestinatioWindow.UIHttpnimbusdestinatioDocument.UIDvDestinationPane12.UITenerifeHyperlink">
+      <ParameterName />
+      <PropertyName>Href</PropertyName>
+      <ExpectedValue>destination.aspx?dest=TE</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="verifyHrefInCountryName_Method">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="verifyHrefInCountryName_Map">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UIHttpnimbusdestinatioWindow" FriendlyName="http://nimbus/destinations.aspx - Windows Internet..." SpecialControlType="BrowserWindow" SessionId="1050484">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+            <PropertyCondition Name="Name" Operator="Contains">destinations.aspx</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>1</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Document" Id="UIHttpnimbusdestinatioDocument" FriendlyName="http://nimbus/destinations.aspx" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="Id" />
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="Title" />
+                  <PropertyCondition Name="AbsolutePath">/destinations.aspx</PropertyCondition>
+                  <PropertyCondition Name="PageUrl">http://nimbus/destinations.aspx</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Pane" Id="UIDvDestinationPane" FriendlyName="dvDestination" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="Id">dvDestination</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Algarve - 170 Villas
+The Algarve's cont</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="dvDestination"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">24</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Hyperlink" Id="UIAlgarveHyperlink" FriendlyName="Algarve" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">Algarve</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">/destination.aspx</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">http://nimbus/destination.aspx?dest=AL</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">href="/destination.aspx?dest=AL"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIDvDestinationPane1" FriendlyName="dvDestination" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="Id">dvDestination</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Costa Blanca - 56 Villas
+The Costa Blan</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="dvDestination"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">29</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Hyperlink" Id="UICostaBlancaHyperlink" FriendlyName="Costa Blanca" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">Costa Blanca</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">/destination.aspx</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">http://nimbus/destination.aspx?dest=BL</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">href="/destination.aspx?dest=BL"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIDvDestinationPane2" FriendlyName="dvDestination" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="Id">dvDestination</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Corfu - 78 Villas
+Corfu is one of the m</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="dvDestination"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">34</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Hyperlink" Id="UICorfuHyperlink" FriendlyName="Corfu" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">Corfu</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">/destination.aspx</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">http://nimbus/destination.aspx?dest=CO</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">href="/destination.aspx?dest=CO"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIDvDestinationPane3" FriendlyName="dvDestination" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="Id">dvDestination</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Crete - 8 Villas
+Crete is the largest, </PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="dvDestination"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">39</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Hyperlink" Id="UICreteHyperlink" FriendlyName="Crete" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">Crete</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">/destination.aspx</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">http://nimbus/destination.aspx?dest=CR</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">href="/destination.aspx?dest=CR"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIDvDestinationPane4" FriendlyName="dvDestination" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="Id">dvDestination</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Cyprus - 79 Villas
+Cyprus truly has som</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="dvDestination"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">44</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Hyperlink" Id="UICyprusHyperlink" FriendlyName="Cyprus" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">Cyprus</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">/destination.aspx</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">http://nimbus/destination.aspx?dest=CY</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">href="/destination.aspx?dest=CY"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIDvDestinationPane5" FriendlyName="dvDestination" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="Id">dvDestination</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Fuerteventura - 23 Villas
+Fuerteventura</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="dvDestination"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">49</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Hyperlink" Id="UIFuerteventuraHyperlink" FriendlyName="Fuerteventura" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">Fuerteventura</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">/destination.aspx</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">http://nimbus/destination.aspx?dest=FU</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">href="/destination.aspx?dest=FU"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIDvDestinationPane6" FriendlyName="dvDestination" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="Id">dvDestination</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Kefalonia - 25 Villas
+Kefalonia is the </PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="dvDestination"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">54</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Hyperlink" Id="UIKefaloniaHyperlink" FriendlyName="Kefalonia" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">Kefalonia</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">/destination.aspx</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">http://nimbus/destination.aspx?dest=KE</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">href="/destination.aspx?dest=KE"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIDvDestinationPane7" FriendlyName="dvDestination" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="Id">dvDestination</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Lanzarote - 88 Villas
+Located only 90 m</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="dvDestination"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">59</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Hyperlink" Id="UILanzaroteHyperlink" FriendlyName="Lanzarote" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">Lanzarote</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">/destination.aspx</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">http://nimbus/destination.aspx?dest=LA</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">href="/destination.aspx?dest=LA"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIDvDestinationPane8" FriendlyName="dvDestination" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="Id">dvDestination</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Mallorca - 144 Villas
+Mallorca has alwa</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="dvDestination"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">64</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Hyperlink" Id="UIMallorcaHyperlink" FriendlyName="Mallorca" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">Mallorca</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">/destination.aspx</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">http://nimbus/destination.aspx?dest=MA</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">href="/destination.aspx?dest=MA"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIDvDestinationPane9" FriendlyName="dvDestination" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="Id">dvDestination</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Menorca - 127 Villas
+"The quiet one", M</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="dvDestination"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">69</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Hyperlink" Id="UIMenorcaHyperlink" FriendlyName="Menorca" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">Menorca</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">/destination.aspx</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">http://nimbus/destination.aspx?dest=ME</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">href="/destination.aspx?dest=ME"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIDvDestinationPane10" FriendlyName="dvDestination" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="Id">dvDestination</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Rhodes - 9 Villas
+Rhodes has spectacula</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="dvDestination"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">74</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Hyperlink" Id="UIRhodesHyperlink" FriendlyName="Rhodes" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">Rhodes</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">/destination.aspx</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">http://nimbus/destination.aspx?dest=RH</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">href="/destination.aspx?dest=RH"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIDvDestinationPane11" FriendlyName="dvDestination" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="Id">dvDestination</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Costa del Sol - 84 Villas
+Andalucia has</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="dvDestination"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">79</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Hyperlink" Id="UICostadelSolHyperlink" FriendlyName="Costa del Sol" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">Costa del Sol</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">/destination.aspx</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">http://nimbus/destination.aspx?dest=SP</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">href="/destination.aspx?dest=SP"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIDvDestinationPane12" FriendlyName="dvDestination" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="Id">dvDestination</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">Tenerife - 15 Villas
+It's no surprise t</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="dvDestination"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">84</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Hyperlink" Id="UITenerifeHyperlink" FriendlyName="Tenerife" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>http://nimbus/destinations.aspx</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Hyperlink</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">A</PropertyCondition>
+                          <PropertyCondition Name="Target" />
+                          <PropertyCondition Name="InnerText">Tenerife</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="AbsolutePath">/destination.aspx</PropertyCondition>
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Href">http://nimbus/destination.aspx?dest=TE</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="ControlDefinition">href="/destination.aspx?dest=TE"</PropertyCondition>
+                          <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>

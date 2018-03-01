@@ -1,0 +1,420 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="3efe829a-76df-439e-af0d-8d5c62727a1e" AssemblyVersion="10.0.21008.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="9.10.9200.17377" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" Value="yes" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="1" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="66816" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="73728" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 8 Enterprise" WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 6.2.9200.0" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="False" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="True" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1033" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="True" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1280" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="768" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="5" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers">
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="UIA" WarningLevel="1" />
+    </Group>
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <StringAssertAction UIObjectName="VerifyHolidayCostSection_Map.UIVillaPlusBalancePaymWindow.UIVillaPlusBalancePaymDocument1.UIFrmBalancePaymentCustom.UIItemTable.UIItem322864Cell">
+      <ParameterName />
+      <PropertyName>InnerText</PropertyName>
+      <ExpectedValue>£3228.64</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="VerifyHolidayCostSection_Method">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="VerifyHolidayCostSection_Map">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UIVillaPlusBalancePaymWindow" FriendlyName="Villa Plus Balance Payment - Windows Internet Expl..." SpecialControlType="BrowserWindow" SessionId="197356">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles />
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>1</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Document" Id="UIVillaPlusBalancePaymDocument" FriendlyName="Villa Plus Balance Payment" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Villa Plus Balance Payment</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="Id" />
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="AbsolutePath" Operator="Contains">/balancepayments/default.aspx</PropertyCondition>
+                  <PropertyCondition Name="PageUrl" Operator="Contains">villaplus.com/balancepayments/default.aspx?id=</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Custom" Id="UIFrmBalancePaymentCustom" FriendlyName="frmBalancePayment" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus Balance Payment</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Custom</PropertyCondition>
+                      <PropertyCondition Name="TagName">FORM</PropertyCondition>
+                      <PropertyCondition Name="Id">frmBalancePayment</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="frmBalancePayment" onsubmit="javascr</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Table" Id="UIItemTable" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Villa Plus Balance Payment</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Table</PropertyCondition>
+                          <PropertyCondition Name="TagName">TABLE</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">Holiday Cost£2274.08
+
+Credit Charge£45</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">width="220" border="0" cellSpacing="0" cellPadding="0"</PropertyCondition>
+                          <PropertyCondition Name="RowCount">22</PropertyCondition>
+                          <PropertyCondition Name="ColumnCount">3</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="TagInstance">5</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Cell" Id="UIHolidayCostCell" FriendlyName="Holiday Cost" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Villa Plus Balance Payment</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                              <PropertyCondition Name="TagName">TD</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                              <PropertyCondition Name="InnerText">Holiday Cost</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="ControlDefinition">align="left" class="boldText"</PropertyCondition>
+                              <PropertyCondition Name="RowIndex">0</PropertyCondition>
+                              <PropertyCondition Name="ColumnIndex">0</PropertyCondition>
+                              <PropertyCondition Name="Class">boldText</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">19</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Cell" Id="UIItem227408Cell" FriendlyName="£2274.08" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Villa Plus Balance Payment</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                              <PropertyCondition Name="TagName">TD</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                              <PropertyCondition Name="InnerText" Operator="Contains">£</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="ControlDefinition">align="right" class="boldText"</PropertyCondition>
+                              <PropertyCondition Name="RowIndex">0</PropertyCondition>
+                              <PropertyCondition Name="ColumnIndex">2</PropertyCondition>
+                              <PropertyCondition Name="Class">boldText</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">21</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Cell" Id="UIItem4548Cell" FriendlyName="£45.48" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Villa Plus Balance Payment</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                              <PropertyCondition Name="TagName">TD</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                              <PropertyCondition Name="InnerText" Operator="Contains">£</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="ControlDefinition">align="right" class="boldText"</PropertyCondition>
+                              <PropertyCondition Name="RowIndex">2</PropertyCondition>
+                              <PropertyCondition Name="ColumnIndex">2</PropertyCondition>
+                              <PropertyCondition Name="Class">boldText</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">25</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Cell" Id="UIItem231956Cell" FriendlyName="£2319.56" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Villa Plus Balance Payment</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                              <PropertyCondition Name="TagName">TD</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                              <PropertyCondition Name="InnerText">£</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="ControlDefinition">align="right" class="boldText"</PropertyCondition>
+                              <PropertyCondition Name="RowIndex">6</PropertyCondition>
+                              <PropertyCondition Name="ColumnIndex">2</PropertyCondition>
+                              <PropertyCondition Name="Class">boldText</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">31</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Cell" Id="UIItem231956Cell1" FriendlyName="£2319.56" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Villa Plus Balance Payment</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                              <PropertyCondition Name="TagName">TD</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                              <PropertyCondition Name="InnerText" Operator="Contains">£</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="ControlDefinition">align="right" class="boldText"</PropertyCondition>
+                              <PropertyCondition Name="RowIndex">10</PropertyCondition>
+                              <PropertyCondition Name="ColumnIndex">2</PropertyCondition>
+                              <PropertyCondition Name="Class">boldText</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">37</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Cell" Id="UIItem000Cell" FriendlyName="£0.00" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Villa Plus Balance Payment</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                              <PropertyCondition Name="TagName">TD</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                              <PropertyCondition Name="InnerText" Operator="Contains">£</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="ControlDefinition">align="right" class="boldText"</PropertyCondition>
+                              <PropertyCondition Name="RowIndex">12</PropertyCondition>
+                              <PropertyCondition Name="ColumnIndex">2</PropertyCondition>
+                              <PropertyCondition Name="Class">boldText</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">41</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Cell" Id="UIItem000Cell1" FriendlyName="£0.00" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Villa Plus Balance Payment</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                              <PropertyCondition Name="TagName">TD</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                              <PropertyCondition Name="InnerText" Operator="Contains">£</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="ControlDefinition">align="right" class="boldText"</PropertyCondition>
+                              <PropertyCondition Name="RowIndex">16</PropertyCondition>
+                              <PropertyCondition Name="ColumnIndex">2</PropertyCondition>
+                              <PropertyCondition Name="Class">boldText</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">47</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Document" Id="UIVillaPlusBalancePaymDocument1" FriendlyName="Villa Plus Balance Payment" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles />
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="Id" />
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="AbsolutePath" Operator="Contains">/balancepayments/default.aspx</PropertyCondition>
+                  <PropertyCondition Name="PageUrl" Operator="Contains">villaplus.com/balancepayments/default.aspx?id=</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Custom" Id="UIFrmBalancePaymentCustom" FriendlyName="frmBalancePayment" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Custom</PropertyCondition>
+                      <PropertyCondition Name="TagName">FORM</PropertyCondition>
+                      <PropertyCondition Name="Id">frmBalancePayment</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="frmBalancePayment" onsubmit="javascr</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">1</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Table" Id="UIItemTable" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Villa Plus Balance Payment</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Table</PropertyCondition>
+                          <PropertyCondition Name="TagName">TABLE</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText" Operator="Contains">Holiday Cost</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">width="220" border="0" cellSpacing="0" cellPadding="0"</PropertyCondition>
+                          <PropertyCondition Name="RowCount">22</PropertyCondition>
+                          <PropertyCondition Name="ColumnCount">3</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="TagInstance">5</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Cell" Id="UIItem322864Cell" FriendlyName="£3228.64" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                              <PropertyCondition Name="TagName">TD</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="ControlDefinition">align="right" class="boldText"</PropertyCondition>
+                              <PropertyCondition Name="RowIndex">0</PropertyCondition>
+                              <PropertyCondition Name="ColumnIndex">2</PropertyCondition>
+                              <PropertyCondition Name="Class">boldText</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">21</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>

@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="3efe829a-76df-439e-af0d-8d5c62727a1e" AssemblyVersion="10.0.21008.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="9.0.8112.16421" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" Value="no" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" Value="no" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="1" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="66816" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="73728" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 7 Enterprise " WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 6.1.7601 Service Pack 1" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="False" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="False" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1033" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="True" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1280" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="1024" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="5" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers" />
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <StringAssertAction UIObjectName="verifyVillaLocationText_Map.UICanas1bdrmEQuintadoLWindow.UICanas1bdrmEQuintadoLDocument.UIMainContent_VillaOvePane">
+      <ParameterName />
+      <PropertyName>InnerText</PropertyName>
+      <ExpectedValue>There are six apartments at Vale das Canas to hire, which all boast air conditioned/heated bedrooms and are arranged in two blocks around a communal pool with generous sun patio area. All have terraces that look over the mature gardens and pool area. They share the communal barbecue. There is a further two bedroom apartment with a one bedroom apartment on a lower level and this is set a small distance from the other blocks. A seven bedroom villa (Villa Canas) is also to rent which can be found on the estate. The three-bedroom apartments are on the first floor of their respective blocks. They have 3 twin bedrooms and two en suite bathrooms. There is a further separate bathroom. Each ground floor block has two 2 bedroom apartments, each with two twin bedrooms and both have en suite bathrooms. One of the two bedroom apartments in each block has a larger lounge compared to the other two bedroom apartment in the same block. The separate two bedroom apartment has one double and one twin bedroom, one bathroom and a private terrace area. Under this apartment is a bedroom apartment with a lounge/kitchen/sleeping area and a bathroom. It's terrace overlooks the tennis court and gardens. All bedrooms are air conditioned/heated at no extra cost. The apartments feature a traditional rough plaster finish to the walls: first-floor apartments have open fireplaces. The living/dining areas are all comfortably furnished, with access to their own terraces. Vale das Canas is completely fenced in with an electronic entrance gate for added security and privacy. The spacious grounds are laid to lawn, with mature trees and shrubs, and in the corner of the grounds is a games area with a pool table and table tennis tables. It is surrounded by open countryside: an ideal retreat, yet within easy reach of all facilities. In the spacious grounds, communal facilities include the use of the fabulous, communal pool, a games area with a Pool/Billiard Table and Table Tennis Table, a children's play area with a swing and a slide, a Barbecue, Laundry facilities and an Estate completely fenced in with electronic security gate.</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="verifyVillaOverViewText_Method">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="verifyVillaLocationText_Map">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UICanas1bdrmEQuintadoLWindow" FriendlyName="Canas 1 bdrm E, Quinta do Lago, Algarve, Villa Plu..." SpecialControlType="BrowserWindow" SessionId="67456">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Canas 1 bdrm E, Quinta do Lago, Algarve, Villa Plus</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+            <PropertyCondition Name="Name" Operator="Contains">Villa Plus</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>1</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Document" Id="UICanas1bdrmEQuintadoLDocument" FriendlyName="Canas 1 bdrm E, Quinta do Lago, Algarve, Villa Plu..." SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Canas 1 bdrm E, Quinta do Lago, Algarve, Villa Plus</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="Id" />
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="Title">Canas 1 bdrm E, Quinta do Lago, Algarve, Villa Plus</PropertyCondition>
+                  <PropertyCondition Name="AbsolutePath">/product.aspx</PropertyCondition>
+                  <PropertyCondition Name="PageUrl">http://nimbus/product.aspx?villaid=275</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Pane" Id="UIMainContent_VillaOvePane" FriendlyName="MainContent_VillaOverview" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Canas 1 bdrm E, Quinta do Lago, Algarve, Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="Id">MainContent_VillaOverview</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">SPAN</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText">There are six apartments at Vale das Can</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">margin12 displayInlineBlock</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">id="MainContent_VillaOverview" class="ma</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">17</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>

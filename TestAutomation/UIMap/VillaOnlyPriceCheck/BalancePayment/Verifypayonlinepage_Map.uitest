@@ -1,0 +1,632 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="3efe829a-76df-439e-af0d-8d5c62727a1e" AssemblyVersion="10.0.21008.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="9.10.9200.17556" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" Value="yes" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="1" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="66816" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="73728" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 8 Enterprise" WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 6.2.9200.0" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="False" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="True" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1033" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="True" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1280" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="768" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="5" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers">
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="UIA" WarningLevel="1" />
+    </Group>
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <AssertAction UIObjectName="Verifypayonlinepage_Map.UIVillaPlusBalancePaymWindow.UIVillaPlusBalancePaymDocument.UIPayNowImage">
+      <ParameterName />
+      <PropertyName>Exists</PropertyName>
+      <ExpectedValue>True</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="Verifypayonlinepage_method">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="Verifypayonlinepage_Map.UIVillaPlusBalancePaymWindow.UIVillaPlusBalancePaymDocument.UIPayNowImage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="91" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="Verifypayonlinepage_Map.UIVillaPlusBalancePaymWindow.UIVillaPlusBalancePaymDocument.UIDvDisableParentPagePane">
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="1" Y="1" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Hover</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="Verifypayonlinepage_Map.UIVillaPlusBalancePaymWindow.UIVillaPlusBalancePaymDocument.UITLSFormFrame.UITLSPopUpDocument.UIContinueImage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="108" Y="27" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="Verifypayonlinepage_Map.UIVillaPlusBalancePaymWindow.UIVillaPlusBalancePaymDocument.UITLSFormFrame.UITLSPopUpDocument.UIPayOnlineImage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="116" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="Verifypayonlinepage_Map.UIVillaPlusBalancePaymWindow.UIBalancePaymentPayOnlDocument.UICtl00_Placeholder1_aPane.UIItemTable.UIItemCell">
+      <ContinueOnError>True</ContinueOnError>
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="1" Y="1" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Hover</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="Verifypayonlinepage_Map.UIVillaPlusBalancePaymWindow.UIBalancePaymentPayOnlDocument.UIContainerDivPane.UIItemTable.UIBookingRefEB0CA9Cell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="56" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="Verifypayonlinepage_Map.UIVillaPlusBalancePaymWindow.UIBalancePaymentPayOnlDocument.UICtl00_Placeholder1_aPane.UIItemTable.UIItemCell1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="193" Y="3" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="Verifypayonlinepage_Map.UIVillaPlusBalancePaymWindow.UIBalancePaymentPayOnlDocument.UIItem270414Pane">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="16" Y="7" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="Verifypayonlinepage_Map.UIVillaPlusBalancePaymWindow.UIBalancePaymentPayOnlDocument.UIContainerDivPane.UIItemTable1.UIVaraddrImagePathimgsCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="593" Y="153" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="Verifypayonlinepagedetails_method">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="Verifypayonlinepage_Map">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UIVillaPlusBalancePaymWindow" FriendlyName="Villa Plus Balance Payment - Windows Internet Expl..." SpecialControlType="BrowserWindow" SessionId="3736630">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Villa Plus Balance Payment</WindowTitle>
+            <WindowTitle>Balance Payment Pay Online</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Villa Plus Balance Payment</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>1</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Document" Id="UIVillaPlusBalancePaymDocument" FriendlyName="Villa Plus Balance Payment" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Villa Plus Balance Payment</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="Id" />
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="Title">Villa Plus Balance Payment</PropertyCondition>
+                  <PropertyCondition Name="AbsolutePath">/balancepayments/default.aspx</PropertyCondition>
+                  <PropertyCondition Name="PageUrl" Operator="Contains">/balancepayments/default.aspx?</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Image" Id="UIPayNowImage" FriendlyName="Pay Now" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus Balance Payment</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Image</PropertyCondition>
+                      <PropertyCondition Name="TagName">IMG</PropertyCondition>
+                      <PropertyCondition Name="Id">imgTopPayNow</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="Alt">Pay Now</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="AbsolutePath">/imgs/vp/buttons/payNow_OFF.gif</PropertyCondition>
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">title="Pay Now" id="imgTopPayNow" style=</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">38</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIDvDisableParentPagePane" FriendlyName="dvDisableParentPage" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus Balance Payment</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">dvDisableParentPage</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText" />
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">disableContainer</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="disableContainer" id="dvDisableParentPage" style="width: 100%; height: 2191px; overflow: hidden; visibility: visible; filter: alpha(opacity=40); z-index: 1013; opacity: 0.4; background-color: gray;"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">68</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Frame" Id="UITLSFormFrame" FriendlyName="TLSForm" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus Balance Payment</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Frame</PropertyCondition>
+                      <PropertyCondition Name="TagName">IFRAME</PropertyCondition>
+                      <PropertyCondition Name="Id">TLSForm</PropertyCondition>
+                      <PropertyCondition Name="Name">TLSForm</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="AbsolutePath">/code_net/info/TLSForm.aspx</PropertyCondition>
+                      <PropertyCondition Name="PageUrl">/code_net/info/TLSForm.aspx?name=ie&amp;version=10&amp;os=win8&amp;prsurl=https://www.villaplus.com/balancepayments/prspayonline.aspx</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">name="TLSForm" id="TLSForm" src="/code_n</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">10</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Document" Id="UITLSPopUpDocument" FriendlyName="TLS PopUp" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Villa Plus Balance Payment</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                          <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                          <PropertyCondition Name="FrameDocument">True</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="Title">TLS PopUp</PropertyCondition>
+                          <PropertyCondition Name="AbsolutePath">/code_net/info/TLSForm.aspx</PropertyCondition>
+                          <PropertyCondition Name="PageUrl">/info/TLSForm.aspx?name=ie&amp;version=10&amp;os=win8&amp;prsurl=https://www.villaplus.com/balancepayments/prspayonline.aspx</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Image" Id="UIContinueImage" FriendlyName="Continue" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Villa Plus Balance Payment</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Image</PropertyCondition>
+                              <PropertyCondition Name="TagName">IMG</PropertyCondition>
+                              <PropertyCondition Name="Id">imgContinue</PropertyCondition>
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="Alt">Continue</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="AbsolutePath">/images/al/buttons/tlsimages/continue.gif</PropertyCondition>
+                              <PropertyCondition Name="Src">https://www.villaplus.com/images/al/buttons/tlsimages/continue.gif</PropertyCondition>
+                              <PropertyCondition Name="LinkAbsolutePath">ShowProcedure()</PropertyCondition>
+                              <PropertyCondition Name="Href">javascript:ShowProcedure()</PropertyCondition>
+                              <PropertyCondition Name="Class" />
+                              <PropertyCondition Name="ControlDefinition">title="Continue" id="imgContinue" alt="C</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">2</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Image" Id="UIPayOnlineImage" FriendlyName="Pay Online" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Villa Plus Balance Payment</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Image</PropertyCondition>
+                              <PropertyCondition Name="TagName">IMG</PropertyCondition>
+                              <PropertyCondition Name="Id">BtnTLSPayOnline</PropertyCondition>
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="Alt">Pay Online</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="AbsolutePath">/imgs/vp/buttons/payOnlineON.gif</PropertyCondition>
+                              <PropertyCondition Name="Src">https://www.villaplus.com/imgs/vp/buttons/payOnlineON.gif</PropertyCondition>
+                              <PropertyCondition Name="Class" />
+                              <PropertyCondition Name="ControlDefinition">title="Pay Online" id="BtnTLSPayOnline" </PropertyCondition>
+                              <PropertyCondition Name="TagInstance">7</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Document" Id="UIBalancePaymentPayOnlDocument" FriendlyName="Balance Payment Pay Online" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Balance Payment Pay Online</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="Id" />
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="Title">Balance Payment Pay Online</PropertyCondition>
+                  <PropertyCondition Name="AbsolutePath">/balancepayments/prspayonline.aspx</PropertyCondition>
+                  <PropertyCondition Name="PageUrl" Operator="Contains">/balancepayments/prspayonline.aspx</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Pane" Id="UICtl00_Placeholder1_aPane" FriendlyName="ctl00_Placeholder1_addresscontrol_Upd_AddressList" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Balance Payment Pay Online</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">ctl00_Placeholder1_addresscontrol_Upd_AddressList</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="ctl00_Placeholder1_addresscontrol_Upd_AddressList"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">16</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Table" Id="UIItemTable" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Balance Payment Pay Online</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Table</PropertyCondition>
+                          <PropertyCondition Name="TagName">TABLE</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">Country  * United Kingdom Ireland Aaland</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">width="550" align="left" border="0" cellSpacing="1" cellPadding="1"</PropertyCondition>
+                          <PropertyCondition Name="RowCount">12</PropertyCondition>
+                          <PropertyCondition Name="ColumnCount">3</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="TagInstance">16</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Cell" Id="UIItemCell" FriendlyName="" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Balance Payment Pay Online</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                              <PropertyCondition Name="TagName">TD</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                              <PropertyCondition Name="InnerText" />
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="ControlDefinition">class="cContentTextNormal"</PropertyCondition>
+                              <PropertyCondition Name="RowIndex">11</PropertyCondition>
+                              <PropertyCondition Name="ColumnIndex">2</PropertyCondition>
+                              <PropertyCondition Name="Class">cContentTextNormal</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">99</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Cell" Id="UIItemCell1" FriendlyName="" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Balance Payment Pay Online</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                              <PropertyCondition Name="TagName">TD</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                              <PropertyCondition Name="InnerText" />
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="ControlDefinition">class="cContentTextNormal"</PropertyCondition>
+                              <PropertyCondition Name="RowIndex">1</PropertyCondition>
+                              <PropertyCondition Name="ColumnIndex">2</PropertyCondition>
+                              <PropertyCondition Name="Class">cContentTextNormal</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">76</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIContainerDivPane" FriendlyName="ContainerDiv" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Balance Payment Pay Online</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                      <PropertyCondition Name="Id">ContainerDiv</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText" Operator="Contains">Booking Ref: </PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" />
+                      <PropertyCondition Name="ControlDefinition">id="ContainerDiv"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">9</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Table" Id="UIItemTable" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Balance Payment Pay Online</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Table</PropertyCondition>
+                          <PropertyCondition Name="TagName">TABLE</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">Booking Ref: EB0CA9
+
+
+
+ 
+
+
+Outsta</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">width="100%" border="0" cellSpacing="0" cellPadding="0"</PropertyCondition>
+                          <PropertyCondition Name="RowCount">11</PropertyCondition>
+                          <PropertyCondition Name="ColumnCount">1</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="TagInstance">5</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Cell" Id="UIBookingRefEB0CA9Cell" FriendlyName="Booking Ref: EB0CA9" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Balance Payment Pay Online</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                              <PropertyCondition Name="TagName">TD</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                              <PropertyCondition Name="InnerText">Booking Ref: EB0CA9</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="ControlDefinition">class="greyHeader" colSpan="6"</PropertyCondition>
+                              <PropertyCondition Name="RowIndex">3</PropertyCondition>
+                              <PropertyCondition Name="ColumnIndex">0</PropertyCondition>
+                              <PropertyCondition Name="Class">greyHeader</PropertyCondition>
+                              <PropertyCondition Name="TagInstance">11</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="Table" Id="UIItemTable1" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Balance Payment Pay Online</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Table</PropertyCondition>
+                          <PropertyCondition Name="TagName">TABLE</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="InnerText">Booking Ref: EB0CA9
+
+
+
+ 
+
+
+Outsta</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">width="100%" border="0" cellSpacing="0" cellPadding="0"</PropertyCondition>
+                          <PropertyCondition Name="RowCount">36</PropertyCondition>
+                          <PropertyCondition Name="ColumnCount">1</PropertyCondition>
+                          <PropertyCondition Name="Class" />
+                          <PropertyCondition Name="TagInstance">4</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Cell" Id="UIVaraddrImagePathimgsCell" FriendlyName="var addrImagePath = &quot;/imgs/vp/&quot;; var add" SpecialControlType="None">
+                          <TechnologyName>Web</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Balance Payment Pay Online</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition Id="SearchCondition">
+                            <AndCondition Id="Primary">
+                              <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                              <PropertyCondition Name="TagName">TD</PropertyCondition>
+                              <PropertyCondition Name="Id" />
+                              <PropertyCondition Name="Name" />
+                              <PropertyCondition Name="MaxDepth">3</PropertyCondition>
+                              <PropertyCondition Name="InnerText">var addrImagePath = "/imgs/vp/"; var add</PropertyCondition>
+                            </AndCondition>
+                            <FilterCondition Id="Secondary">
+                              <PropertyCondition Name="ControlDefinition" />
+                              <PropertyCondition Name="RowIndex">17</PropertyCondition>
+                              <PropertyCondition Name="ColumnIndex">0</PropertyCondition>
+                              <PropertyCondition Name="Class" />
+                              <PropertyCondition Name="TagInstance">69</PropertyCondition>
+                            </FilterCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Pane" Id="UIItem270414Pane" FriendlyName="£2704.14" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Balance Payment Pay Online</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="TagName">SPAN</PropertyCondition>
+                      <PropertyCondition Name="Id">ctl00_Placeholder1_lblAmt</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText" Operator="Contains">£</PropertyCondition>
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class">td_large_black</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">class="td_large_black" id="ctl00_Placeholder1_lblAmt" style="height: 12px; vertical-align: middle; display: inline-block;"</PropertyCondition>
+                      <PropertyCondition Name="TagInstance">9</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>

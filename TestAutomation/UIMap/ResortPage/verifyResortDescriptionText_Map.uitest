@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="3efe829a-76df-439e-af0d-8d5c62727a1e" AssemblyVersion="10.0.21008.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="9.0.8112.16421" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" Value="no" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" Value="no" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="1" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="66816" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="73728" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 7 Enterprise " WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 6.1.7601 Service Pack 1" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="False" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="False" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1033" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="True" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1280" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="1024" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="5" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers">
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="UIA" WarningLevel="1" />
+    </Group>
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <StringAssertAction UIObjectName="verifyResortDescriptionText_Map.UIHolidayVillaResortsiWindow.UIHolidayVillaResortsiDocument.UIListViewTabPane.UIValedoLobo11VillasVaPane">
+      <ParameterName />
+      <PropertyName>InnerText</PropertyName>
+      <ExpectedValue>
+
+Vale do Lobo - 11 Villas
+
+
+
+Vale do Lobo and Quinta do Lago are two exclusive resorts located between Faro and Quarteira which have developed among the pinewoods above the glorious, long sandy beaches in the area. At Vale do Lobo you can find boutiques, designer jewellery, an art gallery,restaurants overlooking the beach and nightclubs. Vale do Lobo and Quinta do Lago have several excellent championship golf courses such as Vale do Lobo, Quinta do Lago,
+ Find out more
+ 
+
+
+Quinta do Lago - 10 Villas
+
+
+
+ Vale do Lobo and Quinta do Lago are two exclusive resorts located between Faro and Quarteira which have developed among the pinewoods above the glorious, long sandy beaches in the area. Quinta do Lago is popular for shopping, offering ‘Quinta Shopping’ where you can find nouvelle cuisine restaurants and designer shops.Vale do Lobo and Quinta do Lago are also very popular with golfers with several excellent championship golf course
+ Find out more
+ 
+
+
+Almancil - 6 Villas
+
+
+
+ The small crossroads town of Almancil in the Algarve has a good range of facilities with many of the shops, cafes and businesses, dedicated to catering for British expatriates and holidaymakers. A bustling town, Almancil also has an international supermarket.   Almancil is a good base to rent a private villa with pool as you can quickly access the luxury resorts of Vale do Lobo and Quinta do Lago with their long sandy beaches, exce
+ Find out more
+ 
+
+
+Vilamoura - 7 Villas
+
+
+
+Vilamoura’s centre is based around its stylish marina with a wide variety of restaurants, bars, shops, boutiques and evening entertainment. It also has one of the few casinos in The Algarve that also hosts some evening shows. The surrounding areas consist of open spaces interspersed with numerous pine trees, golf course, holiday developments and villas.Sports facilities are good in Vilamoura with six championship golf courses. Vilamoura, referred
+ Find out more
+ 
+
+
+Olhos d’Agua - 12 Villas
+
+
+
+A gateway to some of the most interesting coastline of The Algarve, Olhos d'Agua is a small, quaint holiday resort with an abundance of restaurants, bars, cafes, local handicraft/souvenir stores hugging the winding road that leads down to the great family beach. Olhos d'Agua is an ideal location in Portugal for those wanting a quieter stay, with a more relaxed pace of life, in beautiful surroundings. The name Olhos d'Agua derives its name from th
+ Find out more
+ 
+
+
+Praia da Oura/Montechero - 45 Villas
+
+
+
+Praia d’Oura is approximately two miles east of Albufeira. Not many years ago Praia d’Oura did not exist as a holiday resort, but nowadays is a thriving resort in its' own right providing a good range of shops, restaurants, bars and nightclubs. Several of these can be found along the lively area known as 'The Strip'.At the end of 'The Strip' a steep hill leads down to Praia d'Oura’s well known 'Golden Beach' with a wonderful expanse of 
+Find out more
+ 
+
+
+Fort Sao Joao - 2 Villas
+
+
+
+ Fort Sao Joao is a pleasant small holiday resort in The Algarve with a good sandy beach, between the resorts of Praia d'Oura and Albufeira. The Fort of Sao Joao de Arade started life in the 15th century as a lookout tower and was extended in the 17th and 18th century. Today it is private property and was turned into a home on the initiative of the poet, Coelho Carvalho. The remains of Atalaia and Quinta da Torre can be seen in the area which wer
+ Find out more
+ 
+
+
+Albufeira - 6 Villas
+
+
+
+ Albufeira has a striking collection of white houses atop an ochre cliff. The city has its fair share of decorative churches, hermitages and chapels. A symbol of the new usurping the old is the restaurant that was once the North gate tower of the city walls.Oblivious to holidaymakers sunning themselves nearby, fishermen go about the millennial old tradition of mending their nets and heading out to sea. A coastal walk reveals the glorious roc
+ Find out more
+ 
+
+
+Sao Rafael, Castelo, Gale, Val - 38 Villas
+
+
+
+Sao Rafael is in stark contrast to the larger Algarve resorts. With no high-rise developments and bustling streets, visitors are free to indulge in the natural beauty of The Algarve.The restaurants are family orientated, with children always welcome, and needless to say there are some wonderful beach restaurants offering excellent lunchtime or early evening menus including sardines, salads, locally caught fish and grilled meats – perfect with a c
+ Find out more
+ 
+
+
+Guia - 3 Villas
+
+
+
+ Guia is a small village in The Algarve some 3 miles inland from Albufeira. The narrow streets and old-style cottages are reminders of Portugal in times gone by, and yet within a 10 minute drive are the attractive cove bays, rock pools and the sandy beaches of Galé, Castelo and Sao Rafael, all with snack bars/restaurants. Famous for its wonderful eating experience, numerous restaurants and hospitable restaurateurs, Guia is known as the chic
+ Find out more
+ 
+
+
+Armacao de Pera - 8 Villas
+
+
+
+ Armacao de Pera was, until recent times, a tiny fishing village and even though there has been rapid growth in the area, the core of Armacao de Pera is still made up of quaint fishermens' cottages. In fact the catch is still landed here from the brightly painted fishing boats you'll see by the water and there is a daily fish market by the beach and a number of fish restaurants. This popular Algarve resort offers a wide selection of shops, 
+Find out more
+ 
+
+
+Carvoeiro - 16 Villas
+
+
+
+ Carvoeiro is a coastal resort lying some three miles south of Lagoa and is typical of this stretch of the coastline with its dramatic cliffs with white villas perched above. Fishing boats line the beach, withmany of the restaurants serving the days fresh, local catch. The main beach, although small, is very attractive and Carvoeiro's shops, restaurants and bars are all centred around it. Carvoeiro is a good, family resort but also ha
+ Find out more
+ 
+
+
+Lagos - 1 Villa
+
+
+
+ The third largest town in The Algarve, Lagos was the trade centre between Portugal and Africa at the time of the Moorish occupation, and its shipyards built the Caravelas, which sailed the voyages of exploration made by Henry the Navigator's captains. In the old part of Lagos holiday makers can still see sections of the early Roman walls and admire the ancient fortress which still guards the harbour. A Portuguese fishing town, Lagos fish
+ Find out more
+ 
+
+
+Luz - 4 Villas
+
+
+
+ The village of Luz is an attractive, well established family resort with a stylish modern marina, a good shopping area and a large number of restaurants, bars, cafés and shops. The village of Luz itself is a combination of quaint old cobbled whitewashed streets and modern facilities that cater for tourists. Luz is a few miles to the West of Lagos, and is also well known for its excellent wide sandy beach with some watersports. Literally translat
+ Find out more
+ </ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="verifyResortDescriptionText_Method">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="verifyResortDescriptionText_Map">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UIHolidayVillaResortsiWindow" FriendlyName="Holiday Villa Resorts in Algarve - Villa Plus - Wi..." SpecialControlType="BrowserWindow" SessionId="67214">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles />
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+            <PropertyCondition Name="Name" Operator="Contains">Villa Plus</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>1</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Document" Id="UIHolidayVillaResortsiDocument" FriendlyName="Holiday Villa Resorts in Algarve - Villa Plus" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles />
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="Id" />
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="Title" Operator="Contains">Villa Plus</PropertyCondition>
+                  <PropertyCondition Name="AbsolutePath">/resorts.aspx</PropertyCondition>
+                  <PropertyCondition Name="PageUrl" Operator="Contains">/resorts.aspx?dest=</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Pane" Id="UIListViewTabPane" FriendlyName="ListViewTab" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                      <PropertyCondition Name="Id">ListViewTab</PropertyCondition>
+                      <PropertyCondition Name="Name" />
+                      <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Title" />
+                      <PropertyCondition Name="Class" Operator="Contains">font11 overflow-hidden padding0 ui-tabs-panel ui-widget-content ui-corner-bottom</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">id="ListViewTab" class="font11 overflow-</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Pane" Id="UIValedoLobo11VillasVaPane" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Pane</PropertyCondition>
+                          <PropertyCondition Name="Id" />
+                          <PropertyCondition Name="Name" />
+                          <PropertyCondition Name="TagName">DIV</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="Title" />
+                          <PropertyCondition Name="Class">res-item-container</PropertyCondition>
+                          <PropertyCondition Name="ControlDefinition">class="res-item-container"</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>

@@ -1,0 +1,484 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="3efe829a-76df-439e-af0d-8d5c62727a1e" AssemblyVersion="10.0.21008.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="9.10.9200.16798" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" Value="no" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" Value="no" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="0" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" Value="1" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="0" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="0" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="0" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 8 Enterprise" WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 6.2.9200.0" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="False" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="False" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1033" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="False" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1440" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="900" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="5" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers">
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="UIA" WarningLevel="1" />
+    </Group>
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <AssertAction UIObjectName="verifyHSPagecontent_Map.UIYourHolidaySummaryWiWindow.UIYourHolidaySummaryDocument.UITblMainTable.UIYourHolidaySummaryViCell">
+      <ParameterName />
+      <PropertyName>InnerText</PropertyName>
+      <ExpectedValue>
+Your Holiday Summary
+
+
+
+
+
+
+
+Villa Tres Olivos, Nerja, Costa del Sol
+
+5 Adults, 2 Children, 2 Infants departing on 02 May 2014 for 7 nights, from Glasgow to Malaga
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Villa Overview
+
+
+3 BEDROOMS
+2 BATHROOMS
+SLEEPS 2 TO 7
+BEACH 3 MILES
+POOL 21 X 13 FT
+FREE AIR CON
+CAR ESSENTIAL
+
+Boasting fantastic panoramic views over Spain's southern coast to the sea, this delightful 3 bedroom villa enjoys a great location in the sought after town of Nerja. The shops and eateries of Nerja as well as the beautiful, expansive golden beach are all within a short drive and the villa also benefits from air conditioning/heating in the bedrooms at no extra cost.
+
+Included FREE with your villa
+
+
+Air Conditioning/Heating
+Childgate(s)  
+
+Table Tennis Table
+Pool/Billiard Table
+
+Satellite TV
+Microwave
+ 
+ 
+
+
+
+
+
+Package Holiday Details    All timings are local and shown in 24hr format
+ Price Quantity Total 
+
+
+
+
+
+Villa Tres Olivos, Nerja, Costa del Sol      
+7 nights from 02 May 2014 to 09 May 2014        
+
+
+
+
+Flights 
+
+
+1: (Jet2 - NoFrills)   5 Adults, 2 Children, 2 Infants
+
+
+Fri 02 May 2014 
+            Departing: Glasgow 07:30hrs Arriving:  Malaga 11:45hrs 
+Adult  £333.87
+ x5 £1669.35 
+
+
+Fri 09 May 2014 
+            Departing:  Malaga 12:30hrs Arriving:  Glasgow 14:45hrs 
+Child  £313.87
+ x2 £627.74 
+      
+  
+Infant  £50.00
+ x2 £100.00 
+
+
+
+  Total  £2397.09 
+
+
+
+
+Add/Amend Flights
+
+
+
+
+
+
+
+
+
+
+Flight Extras 
+
+
+Flight 1Prepaid Baggage **
+  Free x7 Free 
+
+
+Flight extras are available for this flight by clicking on ''Add/Amend Flight Extras'' button.
+        
+
+
+
+
+** We have included a luggage allowance for each passenger (excluding infants) in our package prices. Most airlines offer an allowance of between 20-22kg, this will be confirmed on your invoice.
+        
+  
+Add/Amend Flight Extras
+
+
+
+
+
+
+Package Total (Villa + Flights)      £2397.09
+
+
+
+
+
+
+ 
+ 
+
+
+
+Villa Extras  
+ Price Quantity Total 
+
+
+ 
+
+
+
+Cots Free x2 Free 
+
+Z-Bed Free x1 Free 
+
+High Chair Free x2 Free 
+
+   
+
+
+
+Add/Amend Villa Extras
+
+ 
+
+
+
+Car Hire  
+ Price Quantity Total 
+
+
+
+
+
+
+Car Hire 1 (Flight 1)       
+
+Group 1A - FORD KA or similar, Manual, Air Con, 3 doors, 4 seats - for 7 days £137.00 x1 £137.00 
+
+Collect from airport Free - - 
+
+Return to airport Free - - 
+
+Child seats (Payable locally) €35.00 - - 
+
+
+Car Hire 2 (Flight 1)       
+
+Group 1H - VW PASSAT ESTATE or similar, Manual, Air Con, 5 doors, 5 seats - for 7 days £229.00 x1 £229.00 
+
+Collect from airport Free - - 
+
+Return to airport Free - - 
+
+Child seats (Payable locally) €35.00 x3 - 
+
+
+
+
+  
+Add/Amend Car Hire
+
+
+
+
+
+
+Private Transfers  
+ Price Quantity Total 
+
+
+
+
+Private Transfer 1 (Flight 1) : 5 Adults, 2 Children, 2 Infants from        
+Airport (Malaga) to Villa - Fri 02 May 2014  £82.00 x1 £82.00 
+
+Private Transfer 1 (Flight 1) : 5 Adults, 2 Children, 2 Infants from        
+Villa to Airport (Malaga) - Fri 09 May 2014  £82.00 x1 £82.00 
+
+Private Transfer 2 (Flight 1) : 5 Adults, 2 Children, 2 Infants from        
+Airport (Malaga) to Villa - Fri 02 May 2014  £132.00 x1 £132.00 
+
+Private Transfer 2 (Flight 1) : 5 Adults, 2 Children, 2 Infants from        
+Villa to Airport (Malaga) - Fri 09 May 2014  £132.00 x1 £132.00 
+
+
+  
+Add/Amend Transfers
+
+
+
+
+
+
+Travel Insurance  
+ Price Quantity Total 
+
+
+
+
+Adult Single Trip Policy  £22.00 x1 £22.00 
+
+Child Single Trip Policy  £14.00 x1 £14.00 
+
+Snr Citizen Single Trip Policy  £44.00 x1 £44.00 
+
+Family Single Trip Policy  £55.00 x1 £55.00 
+
+Family Insurance is cheaper than individual policies and it will save you upto £44.00     
+
+  
+Add/Amend Insurance
+
+
+
+
+
+ADW (Accidental Damage Waiver)    Total 
+
+
+NOTE: The ADW amount is subject to change or the ADW may change to Security Deposit based on the selected passenge details.£63.00 
+
+
+
+
+
+
+ATOL Protection Contribution
+ Price Quantity Total 
+
+Your Financial Protection£2.50x7£17.50
+
+
+
+
+
+£2.50 per person of the cost of this air holiday package is paid to the Civil Aviation Authority to provide ATOL protection to you. This means the money paid for these arrangements is fully protected. Our ATOL number is 2323 and our registered trading name is Villa Plus Ltd. For more information see our booking terms &amp; conditions.
+ 
+
+
+
+
+
+ 
+Would you like to add flights?   
+
+
+
+
+
+This holiday will cost you just £-20.08 per person (approximate) extra with flights from London Gatwick.£3326.09
+
+By adding flights your holiday will be protected by our ATOL 
+
+Include Flights
+
+
+
+
+
+
+
+ 
+ 
+Back
+
+Continue
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+Please wait...</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="verifyHSPagecontent_Method">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="verifyHSPagecontent_Map">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UIYourHolidaySummaryWiWindow" FriendlyName="Your Holiday Summary - Windows Internet Explorer" SpecialControlType="BrowserWindow" SessionId="460916">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Your Holiday Summary</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+            <PropertyCondition Name="Name" Operator="Contains">Your Holiday Summary</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>1</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Document" Id="UIYourHolidaySummaryDocument" FriendlyName="Your Holiday Summary" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Your Holiday Summary</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="Title" Operator="Contains">Your Holiday Summary</PropertyCondition>
+                  <PropertyCondition Name="AbsolutePath" Operator="Contains">/code_net/booking/default.aspx</PropertyCondition>
+                  <PropertyCondition Name="PageUrl" Operator="Contains">/code_net/booking/default.aspx</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Table" Id="UITblMainTable" FriendlyName="tblMain" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Your Holiday Summary</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Table</PropertyCondition>
+                      <PropertyCondition Name="TagName">TABLE</PropertyCondition>
+                      <PropertyCondition Name="Id">tblMain</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="InnerText" Operator="Contains">Your Holiday Summary</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">width="1054" align="center" id="tblMain" style="visibility: visible; background-color: rgb(255, 255, 255);" border="0" cellspacing="0" cellpadding="0"</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Cell" Id="UIYourHolidaySummaryViCell" FriendlyName="Your Holiday Summary Vill" SpecialControlType="None">
+                      <TechnologyName>Web</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Your Holiday Summary</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition Id="SearchCondition">
+                        <AndCondition Id="Primary">
+                          <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                          <PropertyCondition Name="TagName">TD</PropertyCondition>
+                          <PropertyCondition Name="InnerText" Operator="Contains">Your Holiday Summary</PropertyCondition>
+                        </AndCondition>
+                        <FilterCondition Id="Secondary">
+                          <PropertyCondition Name="ControlDefinition">width="100%" valign="top"</PropertyCondition>
+                        </FilterCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>

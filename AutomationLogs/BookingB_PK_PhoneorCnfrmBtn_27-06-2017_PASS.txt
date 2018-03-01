@@ -1,0 +1,26 @@
+########## START ########## Booking : on http://www.villaplus.com/ 27-06-2017 11:28:42##########
+PASS : Home page is Opened Successfully. : VERIFICATION
+PASS : "Destination" List From Search Tile is Populated properly.
+PASS : "Majorca" is Selected From Destination List.
+PASS : Clicked Calender Icon.
+PASS : "Calender" is Dispalyed properly.
+PASS : "April 2018" is Selected as Month. 
+PASS : "14" selected as Date from Calender.
+PASS : "Duration" List From Search Tile is Populated properly.
+PASS : "7 nights" is Selected From Duration List.
+PASS : "Adults" List From Search Tile is Populated properly.
+PASS : "6" Adults Selected.
+PASS : "Child" List From Search Tile is Populated properly.
+PASS : "2" Child Selected.
+PASS : "Infants" List From Search Tile is Populated properly.
+PASS : "1" Infants Selected.
+PASS : "Airport" List From Search Tile is Populated properly.
+PASS : "London Heathrow" Selected as an Airport.
+PASS : Selected Search Criteria - Majorca, 14/4/2018, 7 nights, 6A, 2C, 1I, London Heathrow. : VERIFICATION
+PASS : Clicked "Search" button From Search tile.
+########## START ########## Booking : on http://www.villaplus.com/ 27-06-2017 11:33:39##########
+PASS : Home page is Opened Successfully. : VERIFICATION
+PASS : "Destination" List From Search Tile is Populated properly.
+PASS : "Majorca" is Selected From Destination List.
+PASS : Clicked Calender Icon.
+PASS : "Calender" is Dispalyed properly.

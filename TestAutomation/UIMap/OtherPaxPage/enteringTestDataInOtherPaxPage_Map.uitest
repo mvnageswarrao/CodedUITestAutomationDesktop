@@ -1,0 +1,571 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="3efe829a-76df-439e-af0d-8d5c62727a1e" AssemblyVersion="10.0.21008.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="9.10.9200.16736" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" Value="no" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" Value="no" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="0" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" Value="1" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="0" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="0" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="0" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 8 Enterprise" WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 6.2.9200.0" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="False" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="False" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1033" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="False" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1440" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="900" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="5" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers">
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="UIA" WarningLevel="1" />
+    </Group>
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <SetValueAction UIObjectName="enteringTestDataInOtherPaxPage_Map.UIOtherPassengersDetaiWindow.UIOtherPassengersDetaiDocument.UIDdlAdultMrComboBox">
+      <ParameterName />
+      <Value Encoded="false">Mrs</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enteringTestDataInOtherPaxPage_Map.UIOtherPassengersDetaiWindow.UIOtherPassengersDetaiDocument.UITxtAdultFNameEdit">
+      <ParameterName />
+      <Value Encoded="false">Test One</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enteringTestDataInOtherPaxPage_Map.UIOtherPassengersDetaiWindow.UIOtherPassengersDetaiDocument.UITxtAdultLNameEdit">
+      <ParameterName />
+      <Value Encoded="false">Test Last</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enteringTestDataInOtherPaxPage_Map.UIOtherPassengersDetaiWindow.UIOtherPassengersDetaiDocument.UIDdlAdultAgeComboBox">
+      <ParameterName />
+      <Value Encoded="false">18-25</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enteringTestDataInOtherPaxPage_Map.UIOtherPassengersDetaiWindow.UIOtherPassengersDetaiDocument.UIDdlAdultNationalityComboBox">
+      <ParameterName />
+      <Value Encoded="false">United Kingdom</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="enteringTestDataInOtherPaxPage_Map.UIOtherPassengersDetaiWindow.UIOtherPassengersDetaiDocument.UITxtAdultFNameEdit1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="55" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="enteringTestDataInOtherPaxPage_Map.UIOtherPassengersDetaiWindow.UIOtherPassengersDetaiDocument.UITxtAdultFNameEdit1">
+      <ParameterName />
+      <Value Encoded="false">Test Two</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enteringTestDataInOtherPaxPage_Map.UIOtherPassengersDetaiWindow.UIOtherPassengersDetaiDocument.UITxtAdultLNameEdit1">
+      <ParameterName />
+      <Value Encoded="false">Test Last</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enteringTestDataInOtherPaxPage_Map.UIOtherPassengersDetaiWindow.UIOtherPassengersDetaiDocument.UIDdlAdultAgeComboBox1">
+      <ParameterName />
+      <Value Encoded="false">18-25</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enteringTestDataInOtherPaxPage_Map.UIOtherPassengersDetaiWindow.UIOtherPassengersDetaiDocument.UIDdlAdultNationalityComboBox1">
+      <ParameterName />
+      <Value Encoded="false">United Kingdom</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enteringTestDataInOtherPaxPage_Map.UIOtherPassengersDetaiWindow.UIOtherPassengersDetaiDocument.UITxtAdultFNameEdit2">
+      <ParameterName />
+      <Value Encoded="false">Test Three</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enteringTestDataInOtherPaxPage_Map.UIOtherPassengersDetaiWindow.UIOtherPassengersDetaiDocument.UITxtAdultLNameEdit2">
+      <ParameterName />
+      <Value Encoded="false">Test Last</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enteringTestDataInOtherPaxPage_Map.UIOtherPassengersDetaiWindow.UIOtherPassengersDetaiDocument.UIDdlAdultAgeComboBox2">
+      <ParameterName />
+      <Value Encoded="false">18-25</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enteringTestDataInOtherPaxPage_Map.UIOtherPassengersDetaiWindow.UIOtherPassengersDetaiDocument.UIDdlAdultNationalityComboBox2">
+      <ParameterName />
+      <Value Encoded="false">United Kingdom</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enteringTestDataInOtherPaxPage_Map.UIOtherPassengersDetaiWindow.UIOtherPassengersDetaiDocument.UIDdlChildMrComboBox">
+      <ParameterName />
+      <Value Encoded="false">Master</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enteringTestDataInOtherPaxPage_Map.UIOtherPassengersDetaiWindow.UIOtherPassengersDetaiDocument.UITxtChildFNameEdit">
+      <ParameterName />
+      <Value Encoded="false">Child One</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enteringTestDataInOtherPaxPage_Map.UIOtherPassengersDetaiWindow.UIOtherPassengersDetaiDocument.UITxtChildLNameEdit">
+      <ParameterName />
+      <Value Encoded="false">Child Last</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enteringTestDataInOtherPaxPage_Map.UIOtherPassengersDetaiWindow.UIOtherPassengersDetaiDocument.UIDdlChildAgeComboBox">
+      <ParameterName />
+      <Value Encoded="false">3-11</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enteringTestDataInOtherPaxPage_Map.UIOtherPassengersDetaiWindow.UIOtherPassengersDetaiDocument.UIDdlChildNationalityComboBox">
+      <ParameterName />
+      <Value Encoded="false">United Kingdom</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="enteringTestDataInOtherPaxPage_Method">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="enteringTestDataInOtherPaxPage_Map">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UIOtherPassengersDetaiWindow" FriendlyName="Other Passengers Details - Windows Internet Explor..." SpecialControlType="BrowserWindow" SessionId="525900">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Other Passengers Details</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+            <PropertyCondition Name="Name" Operator="Contains">Other Passengers Details</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>1</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Document" Id="UIOtherPassengersDetaiDocument" FriendlyName="Other Passengers Details" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Other Passengers Details</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="Title" Operator="Contains">Other Passengers Details</PropertyCondition>
+                  <PropertyCondition Name="AbsolutePath" Operator="Contains">/code_net/booking/allocatePax.aspx</PropertyCondition>
+                  <PropertyCondition Name="PageUrl" Operator="Contains">/code_net/booking/allocatePax.aspx</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Edit" Id="UITxtAdultFNameEdit" FriendlyName="txtAdultFName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Other Passengers Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id">FlightRepeater_ctl01_reptAdult_ctl02_txtAdultFName</PropertyCondition>
+                      <PropertyCondition Name="Name">FlightRepeater$ctl01$reptAdult$ctl02$txtAdultFName</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="Class">greyText</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">name="FlightRepeater$ctl01$reptAdult$ctl</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="ComboBox" Id="UIDdlAdultMrComboBox" FriendlyName="ddlAdultMr" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Other Passengers Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                      <PropertyCondition Name="TagName">SELECT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">ddlAdultMr</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">$ddlAdultMr</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Class">greyText</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">name="FlightRepeater$ctl01$reptAdult$ctl</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UITxtAdultLNameEdit" FriendlyName="txtAdultLName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Other Passengers Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id">FlightRepeater_ctl01_reptAdult_ctl02_txtAdultLName</PropertyCondition>
+                      <PropertyCondition Name="Name">FlightRepeater$ctl01$reptAdult$ctl02$txtAdultLName</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="Class">greyText</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">name="FlightRepeater$ctl01$reptAdult$ctl</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="ComboBox" Id="UIDdlAdultAgeComboBox" FriendlyName="ddlAdultAge" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Other Passengers Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                      <PropertyCondition Name="TagName">SELECT</PropertyCondition>
+                      <PropertyCondition Name="Id">FlightRepeater_ctl01_reptAdult_ctl02_ddlAdultAge</PropertyCondition>
+                      <PropertyCondition Name="Name">FlightRepeater$ctl01$reptAdult$ctl02$ddlAdultAge</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Class">greyText</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">name="FlightRepeater$ctl01$reptAdult$ctl</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="ComboBox" Id="UIDdlAdultNationalityComboBox" FriendlyName="ddlAdultNationality" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Other Passengers Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                      <PropertyCondition Name="TagName">SELECT</PropertyCondition>
+                      <PropertyCondition Name="Id">FlightRepeater_ctl01_reptAdult_ctl02_ddlAdultNationality</PropertyCondition>
+                      <PropertyCondition Name="Name">FlightRepeater$ctl01$reptAdult$ctl02$ddlAdultNationality</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Class">greyText</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">name="FlightRepeater$ctl01$reptAdult$ctl</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UITxtAdultFNameEdit1" FriendlyName="txtAdultFName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Other Passengers Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id">FlightRepeater_ctl01_reptAdult_ctl03_txtAdultFName</PropertyCondition>
+                      <PropertyCondition Name="Name">FlightRepeater$ctl01$reptAdult$ctl03$txtAdultFName</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="Class">greyText</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">name="FlightRepeater$ctl01$reptAdult$ctl</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UITxtAdultLNameEdit1" FriendlyName="txtAdultLName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Other Passengers Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id">FlightRepeater_ctl01_reptAdult_ctl03_txtAdultLName</PropertyCondition>
+                      <PropertyCondition Name="Name">FlightRepeater$ctl01$reptAdult$ctl03$txtAdultLName</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="Class">greyText</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">name="FlightRepeater$ctl01$reptAdult$ctl</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="ComboBox" Id="UIDdlAdultAgeComboBox1" FriendlyName="ddlAdultAge" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Other Passengers Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                      <PropertyCondition Name="TagName">SELECT</PropertyCondition>
+                      <PropertyCondition Name="Id">FlightRepeater_ctl01_reptAdult_ctl03_ddlAdultAge</PropertyCondition>
+                      <PropertyCondition Name="Name">FlightRepeater$ctl01$reptAdult$ctl03$ddlAdultAge</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Class">greyText</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">name="FlightRepeater$ctl01$reptAdult$ctl</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="ComboBox" Id="UIDdlAdultNationalityComboBox1" FriendlyName="ddlAdultNationality" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Other Passengers Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                      <PropertyCondition Name="TagName">SELECT</PropertyCondition>
+                      <PropertyCondition Name="Id">FlightRepeater_ctl01_reptAdult_ctl03_ddlAdultNationality</PropertyCondition>
+                      <PropertyCondition Name="Name">FlightRepeater$ctl01$reptAdult$ctl03$ddlAdultNationality</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Class">greyText</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">name="FlightRepeater$ctl01$reptAdult$ctl</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UITxtAdultFNameEdit2" FriendlyName="txtAdultFName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Other Passengers Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id">FlightRepeater_ctl01_reptAdult_ctl04_txtAdultFName</PropertyCondition>
+                      <PropertyCondition Name="Name">FlightRepeater$ctl01$reptAdult$ctl04$txtAdultFName</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="Class">greyText</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">name="FlightRepeater$ctl01$reptAdult$ctl</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UITxtAdultLNameEdit2" FriendlyName="txtAdultLName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Other Passengers Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id">FlightRepeater_ctl01_reptAdult_ctl04_txtAdultLName</PropertyCondition>
+                      <PropertyCondition Name="Name">FlightRepeater$ctl01$reptAdult$ctl04$txtAdultLName</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="Class">greyText</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">name="FlightRepeater$ctl01$reptAdult$ctl</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="ComboBox" Id="UIDdlAdultAgeComboBox2" FriendlyName="ddlAdultAge" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Other Passengers Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                      <PropertyCondition Name="TagName">SELECT</PropertyCondition>
+                      <PropertyCondition Name="Id">FlightRepeater_ctl01_reptAdult_ctl04_ddlAdultAge</PropertyCondition>
+                      <PropertyCondition Name="Name">FlightRepeater$ctl01$reptAdult$ctl04$ddlAdultAge</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Class">greyText</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">name="FlightRepeater$ctl01$reptAdult$ctl</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="ComboBox" Id="UIDdlAdultNationalityComboBox2" FriendlyName="ddlAdultNationality" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Other Passengers Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                      <PropertyCondition Name="TagName">SELECT</PropertyCondition>
+                      <PropertyCondition Name="Id">FlightRepeater_ctl01_reptAdult_ctl04_ddlAdultNationality</PropertyCondition>
+                      <PropertyCondition Name="Name">FlightRepeater$ctl01$reptAdult$ctl04$ddlAdultNationality</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Class">greyText</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">name="FlightRepeater$ctl01$reptAdult$ctl</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="ComboBox" Id="UIDdlChildMrComboBox" FriendlyName="ddlChildMr" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Other Passengers Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                      <PropertyCondition Name="TagName">SELECT</PropertyCondition>
+                      <PropertyCondition Name="Id">FlightRepeater_ctl01_reptChild_ctl01_ddlChildMr</PropertyCondition>
+                      <PropertyCondition Name="Name">FlightRepeater$ctl01$reptChild$ctl01$ddlChildMr</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Class">greyText</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">name="FlightRepeater$ctl01$reptChild$ctl</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UITxtChildFNameEdit" FriendlyName="txtChildFName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Other Passengers Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id">FlightRepeater_ctl01_reptChild_ctl01_txtChildFName</PropertyCondition>
+                      <PropertyCondition Name="Name">FlightRepeater$ctl01$reptChild$ctl01$txtChildFName</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="Class">greyText</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">name="FlightRepeater$ctl01$reptChild$ctl</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UITxtChildLNameEdit" FriendlyName="txtChildLName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Other Passengers Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id">FlightRepeater_ctl01_reptChild_ctl01_txtChildLName</PropertyCondition>
+                      <PropertyCondition Name="Name">FlightRepeater$ctl01$reptChild$ctl01$txtChildLName</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="Class">greyText</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">name="FlightRepeater$ctl01$reptChild$ctl</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="ComboBox" Id="UIDdlChildAgeComboBox" FriendlyName="ddlChildAge" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Other Passengers Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                      <PropertyCondition Name="TagName">SELECT</PropertyCondition>
+                      <PropertyCondition Name="Id">FlightRepeater_ctl01_reptChild_ctl01_ddlChildAge</PropertyCondition>
+                      <PropertyCondition Name="Name">FlightRepeater$ctl01$reptChild$ctl01$ddlChildAge</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Class">greyText</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">name="FlightRepeater$ctl01$reptChild$ctl</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="ComboBox" Id="UIDdlChildNationalityComboBox" FriendlyName="ddlChildNationality" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Other Passengers Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                      <PropertyCondition Name="TagName">SELECT</PropertyCondition>
+                      <PropertyCondition Name="Id">FlightRepeater_ctl01_reptChild_ctl01_ddlChildNationality</PropertyCondition>
+                      <PropertyCondition Name="Name">FlightRepeater$ctl01$reptChild$ctl01$ddlChildNationality</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Class">greyText</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition">name="FlightRepeater$ctl01$reptChild$ctl</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>
